@@ -1,0 +1,34 @@
+{
+    "name": "pixers/zoho-api",
+    "type": "library",
+    "description": "Zoho CRM API",
+    "keywords": ["Zoho", "CRM", "API", "PHP", "JSON"],
+    "authors": [
+        {
+            "name": "Michał Kanak",
+            "email": "michal.kanak@pixers.pl"
+        },
+        {
+            "name": "Sylwester Łuczak",
+            "email": "sylwester.luczak@pixers.pl"
+        }
+    ],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pixers\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Pixers\\": "tests"
+        }
+    }
+}
